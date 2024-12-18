@@ -1,0 +1,96 @@
+/* รีเซ็ตค่า Margin และ Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e7d32; /* สีเขียว */
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header-left, .header-right {
+    flex: 1;
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header-center {
+    text-align: center;
+    flex: 1;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header-right {
+    text-align: right;
+}
+
+/* ฟอร์ม */
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2e7d32; /* สีเขียว */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7d32; /* สีเขียว */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1b5e20; /* สีเขียวเข้ม */
+}
